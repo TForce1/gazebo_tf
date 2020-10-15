@@ -1,0 +1,14 @@
+material floor
+{
+ technique
+ {
+  pass
+  {
+   texture_unit
+   {
+    texture brick_4.jpg
+    scale 1 1
+	}
+     }
+  }
+}

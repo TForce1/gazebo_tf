@@ -1,0 +1,91 @@
+<?xml version='1.0'?>
+    <sdf version='1.6'>
+  <model name='wall_with_door'>
+    <pose frame=''>50  -2  0 0 -0 0</pose>
+    <link name='Wall_2'>
+      <pose frame=''>0 0 0 0 -0 0</pose>
+ <visual name='Wall_2_Visual_0'>
+ <pose frame=''> -26.272  0 1.25 0 -0 0</pose>
+ <geometry>
+ <box>
+ <size> 47.456  0.15 2.5</size>
+ </box>
+ </geometry>
+ <material>
+ <script>
+	 <uri>model://floor/materials/scripts</uri>
+	 <uri>model://floor/materials/textures</uri>
+ <name>floor</name>
+ </script>
+ <ambient>1 1 1 1</ambient>
+ </material>
+ <meta>
+ <layer>0</layer>
+ </meta>
+ </visual>
+ <collision name='Wall_2_Collision_0'>
+ <geometry>
+ <box>
+  <size> 47.456  0.15 2.5</size>
+ </box>
+ </geometry>
+ <pose frame=''> -26.272  0 1.25 0 -0 0</pose>
+ </collision>
+<visual name='Wall_2_Visual_1'>
+ <pose frame=''> 24.728  0 1.25 0 -0 0</pose>
+ <geometry>
+ <box>
+ <size> 50.544  0.15 2.5</size>
+ </box>
+ </geometry>
+ <material>
+ <script>
+          <uri>model://floor/materials/scripts</uri>
+         <uri>model://floor/materials/textures</uri>
+ <name>floor</name>
+ </script>
+ <ambient>1 1 1 1</ambient>
+ </material>
+ <meta>
+ <layer>0</layer>
+ </meta>
+ </visual>
+ <collision name='Wall_2_Collision_1'>
+ <geometry>
+ <box>
+  <size> 50.544  0.15 2.5</size>
+ </box>
+ </geometry>
+ <pose frame=''> 24.728  0 1.25 0 -0 0</pose>
+ </collision>
+ <visual name='Door_2_Visual_0'>
+ <pose frame=''> -1.544  0 2.25 0 -0 0</pose>
+ <geometry>
+ <box>
+ <size>2 0.15 0.5</size>
+ </box>
+ </geometry>
+ <material>
+ <script>
+          <uri>model://floor/materials/scripts</uri>
+         <uri>model://floor/materials/textures</uri>
+ <name>floor</name>
+ </script>
+ <ambient>1 1 1 1</ambient>
+ </material>
+ <meta>
+ <layer>0</layer>
+ </meta>
+ </visual>
+ <collision name='Door_2_Collision_0'>
+ <geometry>
+ <box>
+ <size>2 0.15 0.5</size>
+ </box>
+ </geometry>
+ <pose frame=''> -1.544  0 2.25 0 -0 0</pose>
+ </collision>
+ </link>
+ <static>1</static>
+ </model>
+ </sdf>

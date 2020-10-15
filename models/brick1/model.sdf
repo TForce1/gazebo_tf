@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+ <model name='brick1'>
+  <pose frame=''>50 0 0 0 -0 0</pose>
+  <link name='Wall_0'>
+  <collision name='Wall_0_Collision'>
+  <geometry>
+   <box>
+    <size>100 0.15 4</size>
+   </box>
+   </geometry>
+   <pose frame=''>0 0 1.25 0 -0 0</pose>
+   </collision>
+  <visual name='Wall_0_Visual'>
+   <pose frame=''>0 0 1.25 0 -0 0</pose>
+   <geometry>
+	<box>
+	 <size>100 0.15 4</size>
+	</box>
+   </geometry>
+   <material>
+	<script>
+	<uri>model://floor/materials/scripts</uri>
+	<uri>model://floor/materials/textures</uri>
+   <name>floor</name>
+   </script>
+	<ambient>1 1 1 1</ambient>
+   </material>
+   <meta>
+	<layer>0</layer>
+	</meta>
+	</visual>
+  <pose frame=''>-0 0 0 0 -0 0</pose>
+</link>
+<static>1</static>
+</model>
+</sdf>

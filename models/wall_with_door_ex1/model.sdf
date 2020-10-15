@@ -1,0 +1,529 @@
+<?xml version='1.0'?>
+    <sdf version='1.6'>
+  <model name='wall_with_door'>
+    <pose frame=''>50  2  0 0 -0 0</pose>
+    <link name='Wall_2'>
+      <pose frame=''>0 0 0 0 -0 0</pose>
+ <visual name='Wall_2_Visual_0'>
+ <pose frame=''> -42.3645  0 1.25 0 -0 0</pose>
+ <geometry>
+ <box>
+ <size> 15.271  0.15 2.5</size>
+ </box>
+ </geometry>
+ <material>
+ <script>
+          <uri>model://floor/materials/scripts</uri>
+         <uri>model://floor/materials/textures</uri>
+ <name>floor</name>
+ </script>
+ <ambient>1 1 1 1</ambient>
+ </material>
+ <meta>
+ <layer>0</layer>
+ </meta>
+ </visual>
+ <collision name='Wall_2_Collision_0'>
+ <geometry>
+ <box>
+  <size> 15.271  0.15 2.5</size>
+ </box>
+ </geometry>
+ <pose frame=''> -42.3645  0 1.25 0 -0 0</pose>
+ </collision>
+<visual name='Wall_2_Visual_1'>
+ <pose frame=''> -30.0405  0 1.25 0 -0 0</pose>
+ <geometry>
+ <box>
+ <size> 5.377  0.15 2.5</size>
+ </box>
+ </geometry>
+ <material>
+ <script>
+          <uri>model://floor/materials/scripts</uri>
+         <uri>model://floor/materials/textures</uri>
+ <name>floor</name>
+ </script>
+ <ambient>1 1 1 1</ambient>
+ </material>
+ <meta>
+ <layer>0</layer>
+ </meta>
+ </visual>
+ <collision name='Wall_2_Collision_1'>
+ <geometry>
+ <box>
+  <size> 5.377  0.15 2.5</size>
+ </box>
+ </geometry>
+ <pose frame=''> -30.0405  0 1.25 0 -0 0</pose>
+ </collision>
+<visual name='Wall_2_Visual_2'>
+ <pose frame=''> -24.472  0 1.25 0 -0 0</pose>
+ <geometry>
+ <box>
+ <size> 1.76  0.15 2.5</size>
+ </box>
+ </geometry>
+ <material>
+ <script>
+          <uri>model://floor/materials/scripts</uri>
+         <uri>model://floor/materials/textures</uri>
+ <name>floor</name>
+ </script>
+ <ambient>1 1 1 1</ambient>
+ </material>
+ <meta>
+ <layer>0</layer>
+ </meta>
+ </visual>
+ <collision name='Wall_2_Collision_2'>
+ <geometry>
+ <box>
+  <size> 1.76  0.15 2.5</size>
+ </box>
+ </geometry>
+ <pose frame=''> -24.472  0 1.25 0 -0 0</pose>
+ </collision>
+<visual name='Wall_2_Visual_3'>
+ <pose frame=''> -20.8175  0 1.25 0 -0 0</pose>
+ <geometry>
+ <box>
+ <size> 1.549  0.15 2.5</size>
+ </box>
+ </geometry>
+ <material>
+ <script>
+          <uri>model://floor/materials/scripts</uri>
+         <uri>model://floor/materials/textures</uri>
+ <name>floor</name>
+
+ </script>
+ <ambient>1 1 1 1</ambient>
+ </material>
+ <meta>
+ <layer>0</layer>
+ </meta>
+ </visual>
+ <collision name='Wall_2_Collision_3'>
+ <geometry>
+ <box>
+  <size> 1.549  0.15 2.5</size>
+ </box>
+ </geometry>
+ <pose frame=''> -20.8175  0 1.25 0 -0 0</pose>
+ </collision>
+<visual name='Wall_2_Visual_4'>
+ <pose frame=''> 2.1425  0 1.25 0 -0 0</pose>
+ <geometry>
+ <box>
+ <size> 40.371  0.15 2.5</size>
+ </box>
+ </geometry>
+ <material>
+ <script>
+          <uri>model://floor/materials/scripts</uri>
+         <uri>model://floor/materials/textures</uri>
+ <name>floor</name>
+ </script>
+ <ambient>1 1 1 1</ambient>
+ </material>
+ <meta>
+ <layer>0</layer>
+ </meta>
+ </visual>
+ <collision name='Wall_2_Collision_4'>
+ <geometry>
+ <box>
+  <size> 40.371  0.15 2.5</size>
+ </box>
+ </geometry>
+ <pose frame=''> 2.1425  0 1.25 0 -0 0</pose>
+ </collision>
+<visual name='Wall_2_Visual_5'>
+ <pose frame=''> 26.519  0 1.25 0 -0 0</pose>
+ <geometry>
+ <box>
+ <size> 4.382  0.15 2.5</size>
+ </box>
+ </geometry>
+ <material>
+ <script>
+          <uri>model://floor/materials/scripts</uri>
+         <uri>model://floor/materials/textures</uri>
+ <name>floor</name>
+ </script>
+ <ambient>1 1 1 1</ambient>
+ </material>
+ <meta>
+ <layer>0</layer>
+ </meta>
+ </visual>
+ <collision name='Wall_2_Collision_5'>
+ <geometry>
+ <box>
+  <size> 4.382  0.15 2.5</size>
+ </box>
+ </geometry>
+ <pose frame=''> 26.519  0 1.25 0 -0 0</pose>
+ </collision>
+<visual name='Wall_2_Visual_6'>
+ <pose frame=''> 35.369  0 1.25 0 -0 0</pose>
+ <geometry>
+ <box>
+ <size> 9.318  0.15 2.5</size>
+ </box>
+ </geometry>
+ <material>
+ <script>
+          <uri>model://floor/materials/scripts</uri>
+         <uri>model://floor/materials/textures</uri>
+ <name>floor</name>
+ </script>
+ <ambient>1 1 1 1</ambient>
+ </material>
+ <meta>
+ <layer>0</layer>
+ </meta>
+ </visual>
+ <collision name='Wall_2_Collision_6'>
+ <geometry>
+ <box>
+  <size> 9.318  0.15 2.5</size>
+ </box>
+ </geometry>
+ <pose frame=''> 35.369  0 1.25 0 -0 0</pose>
+ </collision>
+<visual name='Wall_2_Visual_7'>
+ <pose frame=''> 42.4015  0 1.25 0 -0 0</pose>
+ <geometry>
+ <box>
+ <size> 0.747  0.15 2.5</size>
+ </box>
+ </geometry>
+ <material>
+ <script>
+          <uri>model://floor/materials/scripts</uri>
+         <uri>model://floor/materials/textures</uri>
+ <name>floor</name>
+
+ </script>
+ <ambient>1 1 1 1</ambient>
+ </material>
+ <meta>
+ <layer>0</layer>
+ </meta>
+ </visual>
+ <collision name='Wall_2_Collision_7'>
+ <geometry>
+ <box>
+  <size> 0.747  0.15 2.5</size>
+ </box>
+ </geometry>
+ <pose frame=''> 42.4015  0 1.25 0 -0 0</pose>
+ </collision>
+<visual name='Wall_2_Visual_8'>
+ <pose frame=''> 45.239  0 1.25 0 -0 0</pose>
+ <geometry>
+ <box>
+ <size> 0.928  0.15 2.5</size>
+ </box>
+ </geometry>
+ <material>
+ <script>
+         <uri>model://floor/materials/scripts</uri>
+         <uri>model://floor/materials/textures</uri>
+ <name>floor</name>
+ </script>
+ <ambient>1 1 1 1</ambient>
+ </material>
+ <meta>
+ <layer>0</layer>
+ </meta>
+ </visual>
+ <collision name='Wall_2_Collision_8'>
+ <geometry>
+ <box>
+  <size> 0.928  0.15 2.5</size>
+ </box>
+ </geometry>
+ <pose frame=''> 45.239  0 1.25 0 -0 0</pose>
+ </collision>
+<visual name='Wall_2_Visual_9'>
+ <pose frame=''> 50.4005  0 1.25 0 -0 0</pose>
+ <geometry>
+ <box>
+ <size> 5.395  0.15 2.5</size>
+ </box>
+ </geometry>
+ <material>
+ <script>
+          <uri>model://floor/materials/scripts</uri>
+         <uri>model://floor/materials/textures</uri>
+ <name>floor</name>  
+ </script>
+ <ambient>1 1 1 1</ambient>
+ </material>
+ <meta>
+ <layer>0</layer>
+ </meta>
+ </visual>
+ <collision name='Wall_2_Collision_9'>
+ <geometry>
+ <box>
+  <size> 5.395  0.15 2.5</size>
+ </box>
+ </geometry>
+ <pose frame=''> 50.4005  0 1.25 0 -0 0</pose>
+ </collision>
+ <visual name='Door_2_Visual_0'>
+ <pose frame=''> -33.729  0 2.25 0 -0 0</pose>
+ <geometry>
+ <box>
+ <size>2 0.15 0.5</size>
+ </box>
+ </geometry>
+ <material>
+ <script>
+          <uri>model://floor/materials/scripts</uri>
+         <uri>model://floor/materials/textures</uri>
+ <name>floor</name>
+  </script>
+ <ambient>1 1 1 1</ambient>
+ </material>
+ <meta>
+ <layer>0</layer>
+ </meta>
+ </visual>
+ <collision name='Door_2_Collision_0'>
+ <geometry>
+ <box>
+ <size>2 0.15 0.5</size>
+ </box>
+ </geometry>
+ <pose frame=''> -33.729  0 2.25 0 -0 0</pose>
+ </collision>
+<visual name='Door_2_Visual_1'>
+ <pose frame=''> -26.352  0 2.25 0 -0 0</pose>
+ <geometry>
+ <box>
+ <size>2 0.15 0.5</size>
+ </box>
+ </geometry>
+ <material>
+ <script>
+          <uri>model://floor/materials/scripts</uri>
+         <uri>model://floor/materials/textures</uri>
+ <name>floor</name> 
+ </script>
+ <ambient>1 1 1 1</ambient>
+ </material>
+ <meta>
+ <layer>0</layer>
+ </meta>
+ </visual>
+ <collision name='Door_2_Collision_1'>
+ <geometry>
+ <box>
+ <size>2 0.15 0.5</size>
+ </box>
+ </geometry>
+ <pose frame=''> -26.352  0 2.25 0 -0 0</pose>
+ </collision>
+<visual name='Door_2_Visual_2'>
+ <pose frame=''> -22.592  0 2.25 0 -0 0</pose>
+ <geometry>
+ <box>
+ <size>2 0.15 0.5</size>
+ </box>
+ </geometry>
+ <material>
+ <script>
+          <uri>model://floor/materials/scripts</uri>
+         <uri>model://floor/materials/textures</uri>
+ <name>floor</name> 
+ </script>
+ <ambient>1 1 1 1</ambient>
+ </material>
+ <meta>
+ <layer>0</layer>
+ </meta>
+ </visual>
+ <collision name='Door_2_Collision_2'>
+ <geometry>
+ <box>
+ <size>2 0.15 0.5</size>
+ </box>
+ </geometry>
+ <pose frame=''> -22.592  0 2.25 0 -0 0</pose>
+ </collision>
+<visual name='Door_2_Visual_3'>
+ <pose frame=''> -19.043  0 2.25 0 -0 0</pose>
+ <geometry>
+ <box>
+ <size>2 0.15 0.5</size>
+ </box>
+ </geometry>
+ <material>
+ <script>
+         <uri>model://floor/materials/scripts</uri>
+         <uri>model://floor/materials/textures</uri>
+ <name>floor</name>
+
+ </script>
+ <ambient>1 1 1 1</ambient>
+ </material>
+ <meta>
+ <layer>0</layer>
+ </meta>
+ </visual>
+ <collision name='Door_2_Collision_3'>
+ <geometry>
+ <box>
+ <size>2 0.15 0.5</size>
+ </box>
+ </geometry>
+ <pose frame=''> -19.043  0 2.25 0 -0 0</pose>
+ </collision>
+<visual name='Door_2_Visual_4'>
+ <pose frame=''> 23.328  0 2.25 0 -0 0</pose>
+ <geometry>
+ <box>
+ <size>2 0.15 0.5</size>
+ </box>
+ </geometry>
+ <material>
+ <script>
+         <uri>model://floor/materials/scripts</uri>
+         <uri>model://floor/materials/textures</uri>
+ <name>floor</name>
+ </script>
+ <ambient>1 1 1 1</ambient>
+ </material>
+ <meta>
+ <layer>0</layer>
+ </meta>
+ </visual>
+ <collision name='Door_2_Collision_4'>
+ <geometry>
+ <box>
+ <size>2 0.15 0.5</size>
+ </box>
+ </geometry>
+ <pose frame=''> 23.328  0 2.25 0 -0 0</pose>
+ </collision>
+<visual name='Door_2_Visual_5'>
+ <pose frame=''> 29.71  0 2.25 0 -0 0</pose>
+ <geometry>
+ <box>
+ <size>2 0.15 0.5</size>
+ </box>
+ </geometry>
+ <material>
+ <script>
+	 <uri>model://floor/materials/scripts</uri>
+  <uri>model://floor/materials/textures</uri>
+ <name>floor</name>
+
+
+ </script>
+ <ambient>1 1 1 1</ambient>
+ </material>
+ <meta>
+ <layer>0</layer>
+ </meta>
+ </visual>
+ <collision name='Door_2_Collision_5'>
+ <geometry>
+ <box>
+ <size>2 0.15 0.5</size>
+ </box>
+ </geometry>
+ <pose frame=''> 29.71  0 2.25 0 -0 0</pose>
+ </collision>
+<visual name='Door_2_Visual_6'>
+ <pose frame=''> 41.028  0 2.25 0 -0 0</pose>
+ <geometry>
+ <box>
+ <size>2 0.15 0.5</size>
+ </box>
+ </geometry>
+ <material>
+ <script>
+          <uri>model://floor/materials/scripts</uri>
+         <uri>model://floor/materials/textures</uri>
+ <name>floor</name> 
+ </script>
+ <ambient>1 1 1 1</ambient>
+ </material>
+ <meta>
+ <layer>0</layer>
+ </meta>
+ </visual>
+ <collision name='Door_2_Collision_6'>
+ <geometry>
+ <box>
+ <size>2 0.15 0.5</size>
+ </box>
+ </geometry>
+ <pose frame=''> 41.028  0 2.25 0 -0 0</pose>
+ </collision>
+<visual name='Door_2_Visual_7'>
+ <pose frame=''> 43.775  0 2.25 0 -0 0</pose>
+ <geometry>
+ <box>
+ <size>2 0.15 0.5</size>
+ </box>
+ </geometry>
+ <material>
+	 <script>
+	<uri>model://floor/materials/scripts</uri>
+  <uri>model://floor/materials/textures</uri>
+ <name>floor</name>
+
+ </script>
+ <ambient>1 1 1 1</ambient>
+ </material>
+ <meta>
+ <layer>0</layer>
+ </meta>
+ </visual>
+ <collision name='Door_2_Collision_7'>
+ <geometry>
+ <box>
+ <size>2 0.15 0.5</size>
+ </box>
+ </geometry>
+ <pose frame=''> 43.775  0 2.25 0 -0 0</pose>
+ </collision>
+<visual name='Door_2_Visual_8'>
+ <pose frame=''> 46.703  0 2.25 0 -0 0</pose>
+ <geometry>
+ <box>
+ <size>2 0.15 0.5</size>
+ </box>
+ </geometry>
+ <material>
+ <script>
+          <uri>model://floor/materials/scripts</uri>
+         <uri>model://floor/materials/textures</uri>
+ <name>floor</name>
+ </script>
+ <ambient>1 1 1 1</ambient>
+ </material>
+ <meta>
+ <layer>0</layer>
+ </meta>
+ </visual>
+ <collision name='Door_2_Collision_8'>
+ <geometry>
+ <box>
+ <size>2 0.15 0.5</size>
+ </box>
+ </geometry>
+ <pose frame=''> 46.703  0 2.25 0 -0 0</pose>
+ </collision>
+ </link>
+ <static>1</static>
+ </model>
+ </sdf>
