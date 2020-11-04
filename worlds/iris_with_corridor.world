@@ -65,7 +65,7 @@
             </link>
         </model>
 
-        <model name="iris_demo">
+        <model name="iris_with_rs">
             <include>
                 <uri>model://iris_with_rs</uri>
             </include>
