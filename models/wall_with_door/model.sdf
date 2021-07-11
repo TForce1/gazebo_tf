@@ -8,7 +8,7 @@
  <pose frame=''> -26.272  0 1.25 0 -0 0</pose>
  <geometry>
  <box>
- <size> 47.456  0.15 2.5</size>
+ <size> 46.5  0.15 2.5</size>
  </box>
  </geometry>
  <material>

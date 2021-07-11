@@ -5,7 +5,7 @@
    <pose frame=''>0 0 0 0 0 0</pose>
       <inertial>
         <pose frame=''>0 0.0175 0.0125 0 -0 0</pose>
-        <mass>0.564</mass>
+        <mass>0.05</mass>
         <inertia>
           <ixx>0.00388124</ixx>
           <ixy>0</ixy>
@@ -100,7 +100,7 @@
           </noise>
         </camera>
         <always_on>1</always_on>
-        <update_rate>90</update_rate>
+        <update_rate>30</update_rate>
         <visualize>0</visualize>
         <pose frame=''>0 -0.025 0.0125 0 -0 0</pose>
       </sensor>
@@ -123,16 +123,16 @@
           </noise>
         </camera>
         <always_on>1</always_on>
-        <update_rate>90</update_rate>
+        <update_rate>30</update_rate>
         <visualize>0</visualize>
         <pose frame=''>0 0.025 0.0125 0 -0 0</pose>
       </sensor>
       <sensor name='cameradepth' type='depth'>
-        <camera name='camera'>
-          <horizontal_fov>1.48702</horizontal_fov>
+	<camera name='camera'>           
+	<horizontal_fov>1.48702</horizontal_fov>
           <image>
             <width>640</width>
-            <height>480</height>
+	    <height>480</height>
           </image>
           <clip>
             <near>0.1</near>
@@ -145,7 +145,7 @@
           </noise>
         </camera>
         <always_on>1</always_on>
-        <update_rate>90</update_rate>
+        <update_rate>30</update_rate>
         <visualize>0</visualize>
         <pose frame=''>0 0.0175 0.0125 0 -0 0</pose>
     </sensor>
@@ -168,10 +168,10 @@
     </link>
     <static>0</static>
     <plugin name='camera' filename='librealsense_gazebo_plugin.so'>
-      <prefix>camera</prefix>
-      <depthUpdateRate>60.0</depthUpdateRate>
-      <colorUpdateRate>60.0</colorUpdateRate>
-      <infraredUpdateRate>60.0</infraredUpdateRate>
+	    <prefix>camera</prefix>
+      <depthUpdateRate>30.0</depthUpdateRate>
+      <colorUpdateRate>30.0</colorUpdateRate>
+      <infraredUpdateRate>30.0</infraredUpdateRate>
       <depthTopicName>depth/image_raw</depthTopicName>
       <depthCameraInfoTopicName>depth/camera_info</depthCameraInfoTopicName>
       <colorTopicName>color/image_raw</colorTopicName>
@@ -186,7 +186,7 @@
       <infrared2OpticalframeName>camera_right_ir_optical_frame</infrared2OpticalframeName>
       <rangeMinDepth>0.2</rangeMinDepth>
       <rangeMaxDepth>10.0</rangeMaxDepth>
-      <pointCloud>0</pointCloud>
+      <pointCloud>1</pointCloud>
       <pointCloudTopicName>depth/points</pointCloudTopicName>
       <pointCloudCutoff>0.5</pointCloudCutoff>
     </plugin>

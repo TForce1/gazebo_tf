@@ -91,6 +91,7 @@
         <inertial>
           <pose frame=''>0 0 0.1 0 -0 0</pose>
           <mass>1.27</mass>
+          <!-- <mass>20</mass> -->
           <inertia>
             <ixx>0.0080696</ixx>
             <ixy>0</ixy>
@@ -164,7 +165,7 @@
               <ode>
                 <soft_cfm>0</soft_cfm>
                 <soft_erp>0.2</soft_erp>
-                <kp>1e+13</kp>
+                <kp>1e+6</kp>
                 <kd>1</kd>
                 <max_vel>1</max_vel>
                 <min_depth>0</min_depth>
@@ -174,7 +175,7 @@
                 <split_impulse_penetration_threshold>-0.01</split_impulse_penetration_threshold>
                 <soft_cfm>0</soft_cfm>
                 <soft_erp>0.2</soft_erp>
-                <kp>1e+13</kp>
+                <kp>1e+6</kp>
                 <kd>1</kd>
               </bullet>
             </contact>
@@ -258,7 +259,7 @@
               <ode>
                 <soft_cfm>0</soft_cfm>
                 <soft_erp>0.2</soft_erp>
-                <kp>1e+13</kp>
+                <kp>1e+6</kp>
                 <kd>1</kd>
                 <max_vel>5</max_vel>
                 <min_depth>0</min_depth>
@@ -268,7 +269,7 @@
                 <split_impulse_penetration_threshold>-0.01</split_impulse_penetration_threshold>
                 <soft_cfm>0</soft_cfm>
                 <soft_erp>0.2</soft_erp>
-                <kp>1e+13</kp>
+                <kp>1e+6</kp>
                 <kd>1</kd>
               </bullet>
             </contact>
@@ -354,7 +355,7 @@
               <ode>
                 <soft_cfm>0</soft_cfm>
                 <soft_erp>0.2</soft_erp>
-                <kp>1e+13</kp>
+                <kp>1e+6</kp>
                 <kd>1</kd>
                 <max_vel>5</max_vel>
                 <min_depth>0</min_depth>
@@ -364,7 +365,7 @@
                 <split_impulse_penetration_threshold>-0.01</split_impulse_penetration_threshold>
                 <soft_cfm>0</soft_cfm>
                 <soft_erp>0.2</soft_erp>
-                <kp>1e+13</kp>
+                <kp>1e+6</kp>
                 <kd>1</kd>
               </bullet>
             </contact>
@@ -447,7 +448,7 @@
               <ode>
                 <soft_cfm>0</soft_cfm>
                 <soft_erp>0.2</soft_erp>
-                <kp>1e+13</kp>
+                <kp>1e+6</kp>
                 <kd>1</kd>
                 <max_vel>5</max_vel>
                 <min_depth>0</min_depth>
@@ -457,7 +458,7 @@
                 <split_impulse_penetration_threshold>-0.01</split_impulse_penetration_threshold>
                 <soft_cfm>0</soft_cfm>
                 <soft_erp>0.2</soft_erp>
-                <kp>1e+13</kp>
+                <kp>1e+6</kp>
                 <kd>1</kd>
               </bullet>
             </contact>
@@ -541,7 +542,7 @@
               <ode>
                 <soft_cfm>0</soft_cfm>
                 <soft_erp>0.2</soft_erp>
-                <kp>1e+13</kp>
+                <kp>1e+6</kp>
                 <kd>1</kd>
                 <max_vel>5</max_vel>
                 <min_depth>0</min_depth>
@@ -551,7 +552,7 @@
                 <split_impulse_penetration_threshold>-0.01</split_impulse_penetration_threshold>
                 <soft_cfm>0</soft_cfm>
                 <soft_erp>0.2</soft_erp>
-                <kp>1e+13</kp>
+                <kp>1e+6</kp>
                 <kd>1</kd>
               </bullet>
             </contact>
@@ -583,7 +584,7 @@
             <surface>
               <contact>
                 <ode>
-                  <kp>1e+13</kp>
+                  <kp>1e+6</kp>
                   <kd>1</kd>
                 </ode>
               </contact>

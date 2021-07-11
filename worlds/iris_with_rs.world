@@ -62,9 +62,9 @@
             </link>
         </model>
 
-        <model name="iris_with_rs">
+        <model name="turtle_and_rs">
             <include>
-                <uri>model://iris_with_rs</uri>
+                <uri>model://turtle_and_rs</uri>
             </include>
             <pose> 0 0 0 0 0 0 </pose>
         </model>
