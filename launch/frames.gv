@@ -1,0 +1,16 @@
+digraph G {
+"turtle_and_rs/odom" -> "turtle_and_rs/base_footprint"[label="Broadcaster: /gazebo\nAverage rate: 30.208 Hz\nMost recent transform: 45421.709 ( 0.017 sec old)\nBuffer length: 4.800 sec\n"];
+"map" -> "odom"[label="Broadcaster: /odom_broadcaster\nAverage rate: 10.161 Hz\nMost recent transform: 45421.744 ( -0.018 sec old)\nBuffer length: 4.724 sec\n"];
+"camera" -> "camera_depth_optical_frame"[label="Broadcaster: /static_transform_publisher_1625652823805375791\nAverage rate: 10.165 Hz\nMost recent transform: 45421.744 ( -0.018 sec old)\nBuffer length: 4.722 sec\n"];
+"body" -> "camera"[label="Broadcaster: /vins_estimator\nAverage rate: 14.331 Hz\nMost recent transform: 45421.631 ( 0.095 sec old)\nBuffer length: 4.745 sec\n"];
+"world" -> "body"[label="Broadcaster: /vins_estimator\nAverage rate: 14.331 Hz\nMost recent transform: 45421.631 ( 0.095 sec old)\nBuffer length: 4.745 sec\n"];
+"map" -> "world"[label="Broadcaster: /world_broadcaster\nAverage rate: 10.176 Hz\nMost recent transform: 45421.810 ( -0.084 sec old)\nBuffer length: 4.717 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 45421.726"[ shape=plaintext ] ;
+ }->"turtle_and_rs/odom";
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 45421.726"[ shape=plaintext ] ;
+ }->"map";
+}

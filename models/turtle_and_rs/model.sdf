@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <sdf version='1.6'>
   <model name='turtlebot3_waffle_pi'>
 	 <include>
@@ -186,11 +187,15 @@
       <velocity_decay/>
       <velocity_decay/>
       <velocity_decay/>
-      <sensor name='imu' type='imu'>
+      <!-- <sensor name='imu' type='imu'>
         <always_on>1</always_on>
         <visualize>0</visualize>
-        <pose frame=''>0 0 0.078 0 -0 0</pose>
-      </sensor>
+        <pose frame=''>0 0 0.078 3.141593 -0 0</pose>
+        
+      </sensor> -->
+
+      <!--  -->
+      
       <gravity>1</gravity>
       <velocity_decay/>
       <sensor name='lds_lfcd_sensor' type='ray'>
@@ -371,6 +376,7 @@
         <use_parent_model_frame>1</use_parent_model_frame>
       </axis>
     </joint>
+      
     <plugin name='turtlebot3_waffle_pi_controller' filename='libgazebo_ros_diff_drive.so'>
       <commandTopic>cmd_vel</commandTopic>
       <odometryTopic>odom</odometryTopic>
@@ -392,33 +398,5 @@
       <rosDebugLevel>na</rosDebugLevel>
     </plugin>
     <static>0</static>
-    <plugin name='imu_plugin' filename='libgazebo_ros_imu.so'>
-      <alwaysOn>1</alwaysOn>
-      <topicName>imu</topicName>
-      <serviceName>imu_service</serviceName>
-      <gaussianNoise>0.0</gaussianNoise>
-      <updateRate>0</updateRate>
-      <imu>
-        <noise>
-          <type>gaussian</type>
-          <rate>
-            <mean>0.0</mean>
-            <stddev>2e-4</stddev>
-            <bias_mean>0.0000075</bias_mean>
-            <bias_stddev>0.0000008</bias_stddev>
-          </rate>
-          <accel>
-            <mean>0.0</mean>
-            <stddev>1.7e-2</stddev>
-            <bias_mean>0.1</bias_mean>
-            <bias_stddev>0.001</bias_stddev>
-          </accel>
-        </noise>
-      </imu>
-      <bodyName>base_footprint</bodyName>
-      <frameName>base_footprint</frameName>
-      <xyzOffset>0 0 -0.156</xyzOffset>
-      <rpyOffset>0 -0 0</rpyOffset>
-    </plugin>
   </model>
 </sdf>
