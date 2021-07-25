@@ -299,7 +299,7 @@
 
     <plugin name="turtlebot3_burger_controller" filename="libgazebo_ros_skid_steer_drive.so">
       <robotNamespace>/</robotNamespace>
-      <commandTopic>cmd_vel</commandTopic>
+      <commandTopic>cmd_vel2</commandTopic>
       <odometryTopic>odom</odometryTopic>
       <odometryFrame>odom</odometryFrame>
       <odometrySource>world</odometrySource>
@@ -321,7 +321,7 @@
       <!-- <wheelAcceleration>3</wheelAcceleration>
       <wheelTorque>200</wheelTorque> -->
 
-      <torque>0.5</torque>
+      <torque>2</torque>
       <rosDebugLevel>na</rosDebugLevel>
     </plugin>
 
